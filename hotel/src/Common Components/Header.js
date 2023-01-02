@@ -18,7 +18,7 @@ export const Navbar = function (){
                 <a href="">Body</a>
                 <a href="">About us</a>
                 <a href="">Contact us</a>
-                <button className= onClick= { showNavbar }>
+                <button onClick= { showNavbar }>
                     <FaTimes />
                 </button>
             </nav>
