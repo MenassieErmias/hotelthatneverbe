@@ -19,11 +19,11 @@ export const Navbar = function (){
                 <a href="">Body</a>
                 <a href="">About us</a>
                 <a href="">Contact us</a>
-                <button onClick= { showNavbar }>
+                <button class="nav-btn nav-close-btn" onClick= { showNavbar }>
                     <FaTimes />
                 </button>
             </nav>
-            <button onClick= { showNavbar }>
+            <button class="nav-btn" onClick= { showNavbar }>
                 <FaBars />
             </button>
         </header>

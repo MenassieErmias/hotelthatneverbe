@@ -8,7 +8,7 @@
     --main-color: #29335c;
     --main-color-light: #667099;
     --secondary-color: #db2839;
-    --text-color: #000;
+    --text-color: #fff;
 }
 
 header{
@@ -63,4 +63,8 @@ header .nav-btn{
         transition: 1s;
         transform: translateY(-100vh);
     }
+    header .responsive_nav{
+        transform: none;
+    }
+
 }
