@@ -42,6 +42,34 @@ header .nav-btn{
     visibility: hidden;
     opacity: 0;
 }
+/* ********************************** Home.js ****************************** */
+
+.wrapper{
+    background-color: var(--main-color-light);
+    color: var(--text-color);
+    padding: 2em;
+}
+
+.section{
+    border: 1px solid black;
+    margin: 1em 2em;
+    border-radius: 1em;
+    padding: 1em 2em;
+    height: 300px;
+    background-color: var(--main-color);
+}
+
+.section img{
+    height: 90%;
+    width: 40%;
+    display: inline;
+}
+.text-section{
+    display: inline;
+    height : 90%;
+    width: 40%;
+}
+/* ********************* Media query *************************** */
 
 @media only screen and (max-width : 1024px){
     header .nav-btn{
